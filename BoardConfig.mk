@@ -99,5 +99,8 @@ TW_USE_TOOLBOX := true
 TW_NO_EXFAT_FUSE := true
 
 TW_EXCLUDE_TWRPAPP := true
+TARGET_USES_MKE2FS := true
 
--include vendor/kud/recovery/config.mk
+# Hack: prevent anti rollback
+PLATFORM_SECURITY_PATCH := 2099-12-31
+PLATFORM_VERSION := 16.1.0
