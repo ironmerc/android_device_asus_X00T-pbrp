@@ -95,7 +95,7 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_MAX_BRIGHTNESS := 255
 TW_THEME := portrait_hdpi
 TW_SCREEN_BLANK_ON_BOOT := true
-TW_USE_TOOLBOX := true
+#TW_USE_TOOLBOX := true
 TW_NO_EXFAT_FUSE := true
 
 TW_EXCLUDE_TWRPAPP := true
@@ -104,3 +104,6 @@ TARGET_USES_MKE2FS := true
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
+
+# Official
+PB_OFFICIAL := true
