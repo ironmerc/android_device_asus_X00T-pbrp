@@ -107,3 +107,6 @@ PLATFORM_VERSION := 16.1.0
 
 # Official
 PB_OFFICIAL := true
+
+#Treble Compatiblity
+PB_TREBLE_COMP := 1
